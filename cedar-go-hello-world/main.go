@@ -192,7 +192,6 @@ func outputDecision(decision cedar.Decision, diag cedar.Diagnostic) {
 			fmt.Println(" *", err)
 			fmt.Println()
 		}
-		return
 	}
 
 	// If there are no reasons, then no policies applied to the request.
